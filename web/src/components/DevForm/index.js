@@ -1,5 +1,4 @@
-import React, { useState, useEffect }  from 'react'
-import './styles.css';
+import React, { useState, useEffect }  from 'react';
 
 function DevForm({ onSubmit }) {
     const [github_username, setGithubUsername] = useState('');
